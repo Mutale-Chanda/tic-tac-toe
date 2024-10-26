@@ -1,0 +1,70 @@
+/* Apply consistent box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h1 { font-size: 22px; }
+h2 { font-size: 20px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5 { font-size: 14px; }
+h6 { font-size: 12px; }
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+.board-row {
+  display: flex; 
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #4d4d4d;
+  font-size: 48px;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  margin: -1px -1px 0 0;               
+  padding: 0;
+  text-align: center;
+  display: flex;        
+  align-items: center;
+  justify-content: center;
+}
+
+.square:hover {
+  background-color: #e0ffe0;
+}
+
+.status {
+  margin-bottom: 10px;
+  font-size: 29px;
+  font-weight: 600;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
